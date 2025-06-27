@@ -13,11 +13,11 @@ public class Principal {
         listaentrada.mostrar();
 
         System.out.println("Salida");
-        unirValorNombre(listaentrada, 3);
+        doble_vuelta(listaentrada, 3);
     }
 
     
-    private static void unirValorNombre(ListaEnlazada input,int k) {
+    private static void doble_vuelta(ListaEnlazada input,int k) {
         if (input.estaVacia() || k <= 0 || k > input.obtenerTamanio()) {
             System.out.println("Lista vacía o valor de k inválido");
             return;
