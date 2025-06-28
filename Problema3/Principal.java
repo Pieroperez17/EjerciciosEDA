@@ -11,11 +11,11 @@ public class Principal {
         listaentrada_1.mostrar();
 
         System.out.println("Salida");
-        Resta_Lista_Enlazada(listaentrada_1);
+        Reordenar_Lista(listaentrada_1);
     }
 
     
-    private static void Resta_Lista_Enlazada(ListaEnlazada ListaEnlazada1) {
+    private static void Reordenar_Lista(ListaEnlazada ListaEnlazada1) {
         int size = ListaEnlazada1.obtenerTamanio();
         boolean val = false;
         for(int i=0; i < size; i++) {

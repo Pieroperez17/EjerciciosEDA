@@ -31,10 +31,10 @@ public class Principal {
 
         for(int i=0; i<size;i++){
             if (i < k) {
-                temp1.insertarFinal(ListaImput.getHead().GetClave());
+                temp1.insertarFinal(ListaImput.getHead().clave);
                 ListaImput.eliminarInicio();
             } else {
-                temp2.insertarFinal(ListaImput.getHead().GetClave());
+                temp2.insertarFinal(ListaImput.getHead().clave);
                 ListaImput.eliminarInicio();
             }
         }
@@ -43,10 +43,10 @@ public class Principal {
         
         for (int index = 0; index < size; index++) {
             if (index < k) {
-                System.out.print(temp1.getHead().GetClave());
+                System.out.print(temp1.getHead().clave);
                 temp1.eliminarInicio();
             } else {
-                System.out.print(temp2.getHead().GetClave());
+                System.out.print(temp2.getHead().clave);
                 temp2.eliminarInicio();
             }
             System.out.print(" --> ");
