@@ -14,7 +14,7 @@ public class Principal {
         Reordenar_Lista(listaentrada_1);
     }
 
-    
+    //Complejidad O(n)
     private static void Reordenar_Lista(ListaEnlazada ListaEnlazada1) {
         int size = ListaEnlazada1.obtenerTamanio();
         boolean val = false;

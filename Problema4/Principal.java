@@ -21,7 +21,7 @@ public class Principal {
         InvertirSubListaEnlazada(listaentrada_1,1,8);
     }
 
-    
+    //Complejidad O(n)
     private static void InvertirSubListaEnlazada(ListaEnlazada entrada,int inicio, int fin) {
         ListaEnlazada Input = entrada;
         ListaEnlazada Result = new ListaEnlazada();

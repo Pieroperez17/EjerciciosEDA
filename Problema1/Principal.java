@@ -16,7 +16,7 @@ public class Principal {
         doble_vuelta(listaentrada, 3);
     }
 
-    
+    // Complejidad O(n)
     private static void doble_vuelta(ListaEnlazada input,int k) {
         if (input.estaVacia() || k <= 0 || k > input.obtenerTamanio()) {
             System.out.println("Lista vacía o valor de k inválido");

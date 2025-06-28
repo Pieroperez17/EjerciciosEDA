@@ -20,7 +20,7 @@ public class Principal {
         Resta_Lista_Enlazada(listaentrada_1, listaentrada_2);
     }
 
-    
+    // Complejidad O(n + m)
     private static void Resta_Lista_Enlazada(ListaEnlazada ListaEnlazada1,ListaEnlazada ListaEnlazada2) {
         //Datos de las 2 listas y sus tamaños
         ListaEnlazada imput1 = ListaEnlazada1;
