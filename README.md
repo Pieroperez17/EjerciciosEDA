@@ -7,8 +7,6 @@ Este repositorio contiene la resolución de **4 problemas complementarios** para
 ## 👨‍💻 Integrantes del Grupo
 
 - **Sebastian Piero Perez Garcia** (20221940)
-- [Nombre del Alumno 2] (Código)
-- [Nombre del Alumno 3] (Código)
 
 ## 🗂️ Estructura del Repositorio
 
